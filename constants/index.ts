@@ -1,86 +1,136 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'solutions', label: 'Solutions' },
+  { href: '/', key: 'products', label: 'Products' },
+  { href: '/', key: 'support', label: 'Support' },
+  { href: '/', key: 'feedback', label: 'Feedback' },
+  { href: '/', key: 'news&events', label: 'News & Events' },
+  { href: '/', key: 'about_us', label: 'About us' },
+  { href: '/', key: 'request_quote', label: 'Request a quote' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
-// CAMP SECTION
-export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
-];
+//PRODUCTS SECTION
+export const EXPLORE_PRODUCTS = [
+  { id: 1, title: 'Baggage Scanner', image: '/baggage_scanner.jpeg' },
+  { id: 2, title: 'Vehicle Scanner', image: '/vehicle_scanner1.jpeg' },
+  { id: 3, title: 'Turnstiles', image: '/turnstile.jpeg' },
+  { id: 4, title: 'Vehicle Barrier', image: '/vehicle_barrier1.jpeg' },
+  { id: 5, title: 'CCTV ( Video surveillance)', image: '/cctv.jpeg' },
+  { id: 6, title: 'Solar power products', image: '/solar_panel.jpeg' },
+]
 
-// FEATURES SECTION
+
+//FEATURE SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
-    description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+    title: 'Professional Liability',
+    description: 'With a large client base across the world',
+    image: '/factory.jpg',
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
-    description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+    title: 'Dedicated To Our Clients',
+    description: 'Our clients have continued to understand our high value-adding solutions',
+    image: '/factory_worker.jpg',
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
-    description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+    title: 'Outstanding Services',
+    description: 'We offer a wide range of products from our basket with our well-trained professionals operating with us',
+    image: '/settings.jpg',
+  },
+];
+
+//NEWS SECTION
+export const newsItems = [
+  {
+    title: 'BLOG',
+    date: '2024-06-28',
+    description: 'Dahua’s AI Vehicle Entrance & Exit Solution in a Nutshell',
+    link: '#',
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
-    description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+    title: 'SUCCESS STORIES',
+    date: '2024-05-07',
+    description: 'Dahua Technology Safeguarded Primavera Sound Music Festival in Santiago, Chile',
+    link: '#',
+  },
+  {
+    title: 'NEWS',
+    date: '2024-07-01',
+    description: 'Dahua Technology Announces Comprehensive Global Delivery and Service System',
+    link: '#',
+  },
+  {
+    title: 'EVENTS',
+    date: '2024-04-22',
+    description: 'Keynote Speech by Mr. Wang Jun: AI Enables Future Traffic',
+    link: '#',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'Products',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      'Network Cameras',
+      'HDCVI Cameras',
+      'PT2 Cameras',
+      'Thermal Cameras',
+      'Explosion-Proof & Anti-Corrosion',
+      'Network Recorders',
+      'HDCVI Recorders'
+    ],
+  },{
+    title: 'Solutions',
+    links: [
+      'Transportation',
+      'Energy',
+      'Traffic',
+      'Banking & Finance',
+      'Building',
+      'Retail',
+      'Education',
+      'Healthcare'
+    ],
+  },{
+    title: 'Support',
+    links: [
+      'Tools',
+      'Service Policy',
+      'Download Center',
+      'Training',
+      'Contact',
+      'RMA',
+      'Video',
+      'Announcement'
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Partners',
+    links: 'Dahua ECO Partner Program',
+  },{
+    title: 'News & Events',
+    links: [
+      'Press Release',
+      'Blog',
+      'Success Stories',
+      'Notice',
+      'Events',
+      'News Letter',
+    ],
+  },{
+    title: 'About us',
+    links: [
+      'Introduction',
+      'Our Commitments',
+      'Trust Center',
+      'ESG',
+      'Contact Us',
+      'Terms of use',
+      'Privacy Policy',
+      'Trade Mark Usage Guidelines'
+    ],
   },
 ];
-
-export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
-  links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
-  ],
-};
-
-export const SOCIALS = {
-  title: 'Social',
-  links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
-    '/wordpress.svg',
-  ],
-};
