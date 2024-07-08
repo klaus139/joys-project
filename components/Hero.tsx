@@ -7,10 +7,11 @@ import { ArrowLeftIcon,ArrowRightIcon } from '@heroicons/react/24/solid'
 const Hero = () => {
 
   const images = [
+	'/cool_header12.jpeg',
     '/cool_header2.jpeg',
     '/cool_header11.jpeg',
-    '/cool_header3.jpeg',
-    '/cool_header1.jpeg'
+    '/cool_header3.jpeg'
+    
   ]
 
   const zoomInProperties = {
@@ -35,7 +36,7 @@ const Hero = () => {
 				{images.map((each, index) =>
          (
 					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
-						<img title='jjjj'
+						<img
 							className="w-screen"
 							src={each}
 						/>
